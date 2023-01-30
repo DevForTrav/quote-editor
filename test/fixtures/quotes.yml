@@ -1,8 +1,14 @@
 first:
+  company: kpmg
   name: First quote
+  user: accountant
 
 second:
+  company: kpmg
   name: Second quote
+  user: accountant
 
 third:
+  company: kpmg
   name: Third quote
+  user: manager
