@@ -3,6 +3,7 @@ class Quote < ApplicationRecord
 
   belongs_to :company
   belongs_to :user
+  has_many :line_item_dates, dependent: :destroy
 
   scope :ordered, -> { order(id: :desc) }
 
