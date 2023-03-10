@@ -4,7 +4,7 @@
   <div class="header">
     <h1>Edit date</h1>
   </div>
-  <%= turbo_frame_tag @line_item_date do %>
+  <%= turbo_frame_tag dom_id(@line_item_date, :edit ) do %>
   <%# Instructs turbo to replace the line_item_date on _line_item_date.html.erb(line 15) with this form %>
     <%= render "form", quote: @quote, line_item_date: @line_item_date %>
   <% end %>
